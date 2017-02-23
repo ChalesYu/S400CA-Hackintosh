@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>DisplayProductID</key>
+	<integer>831</integer>
+	<key>DisplayProductName</key>
+	<string>Color LCD</string>
+	<key>DisplayVendorID</key>
+	<integer>12516</integer>
+	<key>IOGFlags</key>
+	<integer>4</integer>
+	<key>dmdg</key>
+	<data>
+	AAAAAg==
+	</data>
+	<key>scale-resolutions</key>
+	<array>
+		<data>
+		AAAHgAAABDgAAAABAgAAAA==
+		</data>
+		<data>
+		AAAFVgAAAwAAAAABAgAAAA==
+		</data>
+		<data>
+		AAAPAAAACHAAAAABAgAAAA==
+		</data>
+		<data>
+		AAAAAAAAAAAAAAABAgAAAA==
+		</data>
+		<data>
+		AAAAAAAAAAAAAAABAgAAAA==
+		</data>
+		<data>
+		AAAeAAAAEOAAAAABAgAAAA==
+		</data>
+		<data>
+		AAAKrAAABgAAAAABAgAAAA==
+		</data>
+		<data>
+		AAAPAAAACWAAAAAJAKAAAA==
+		</data>
+		<data>
+		AAANIAAACDQAAAAJAKAAAA==
+		</data>
+		<data>
+		AAALQAAABwgAAAAJAKAAAA==
+		</data>
+		<data>
+		AAAKAAAABkAAAAAJAKAAAA==
+		</data>
+		<data>
+		AAAIAAAABQAAAAAJAKAAAA==
+		</data>
+		<data>
+		AAAHgAAABLAAAAAJAKAAAA==
+		</data>
+		<data>
+		AAAPAAAACHAAAAABAgAAAA==
+		</data>
+	</array>
+</dict>
+</plist>
