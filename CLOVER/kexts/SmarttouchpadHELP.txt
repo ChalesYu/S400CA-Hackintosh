@@ -1,0 +1,22 @@
+0 : To disable the gesture (关闭此手势)
+1 - Applications Switch (Not for Edge swipes)(应用程序切换)
+2 - App close (关闭当前应用)
+3 - Launchpad 
+4 - Mission control 
+5 - Dashboard 
+6 - Left Space/Full Screen apps switch (Not for Top Edge swipe) (左边的桌面/空间)
+7 - Right Space/Full Screen apps switch (Not for Top Edge swipe)(右边的桌面/空间)
+8 - Application windows(应用程序窗口)
+9 - Minimize app (最小化当前应用)
+10 - Toggle Full screen Switch (最大化当前应用)
+11 - Backward (Not for Top Edge swipe) (后退)(浏览网页的时候)
+12 - Forward (Not for Top Edge swipe) (前进)(浏览网页的时候)
+13 - Desktop (显示桌面)14 - Notification center (keyboard shortcut) (通知中心)
+15 - Show Properties/Info (显示属性/信息)
+16 - Hide/Show Dock (显示/隐藏 Dock)
+17 - Notification center (soft mode) (通知中心)
+18 - Zoom reset (works in Photos and Browser) (放大重置/恢复默认大小)
+19 - Finder 
+20 - Force Quit (强制退出)
+
+21 - 32 as F13 - F24
