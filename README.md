@@ -44,6 +44,9 @@ boot slow (up to 1 minutes)
 
 WIFI&BT (changed to QCA9565)
 
+#credits
+
+See credits.MD
 
 #change log
 
