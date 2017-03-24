@@ -48,6 +48,8 @@ WIFI&BT (changed to QCA9565)
 
 See credits.MD
 
-#change log
+# change log
+
+2017.3.24  update VT1802 source file to fake AppleHDA
 
 2017.2.23  create it
