@@ -20,8 +20,7 @@ I have installed MacOS 10.12 at S400CA with some bugs
      Touch Screen (One finger)
      Trackpad gestures
      SD Card Reader(USB)
-     Sleep(sometimes not work when AC adapter plugin)
-
+     Sleep(sometimes not work when AC adapter plugin)
 ### NOT Working :
      VGA port
      boot slow (up to 1 minutes)
