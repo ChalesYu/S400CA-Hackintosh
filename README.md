@@ -2,67 +2,51 @@
 EDIT...
 I have installed MacOS 10.12 at S400CA with some bugs
 
-Specifications:
+### Specifications:
 
- i5-3317U
- 
- HD4000 
- 
- VT1802P sound card
- 
- AR8161 Ethernet Controller
- 
- 180GB intel Solid State Drive(changed)
- 
- 6GB DDR3 1600Mhz
+    i5-3317U
+    HD4000 
+    VT1802P sound card
+    AR8161 Ethernet Controller
+    180GB intel Solid State Drive(changed)
+    6GB DDR3 1600Mhz'
+### Working :
 
-Working :
+     Display Brightness
+     Sound (extMic not working)
+     Battery
+     camera
+     Power Management
+     Touch Screen (One finger)
+     Trackpad gestures
+     SD Card Reader(USB)
+     Sleep
 
-Display Brightness
+### NOT Working :
 
-Sound (extMic not working)
-
-Battery
-
-camera
-
-Power Management
-
-Touch Screen (One finger)
-
-Trackpad gestures
-
-SD Card Reader(USB)
-
-sleep
-
-NOT Working :
-
-VGA port
-
-boot slow (up to 1 minutes) 
-
-WIFI&BT (changed to QCA9565)
+     VGA port
+     boot slow (up to 1 minutes) 
+     wifi&BT(Has changed to QCA9565 , Although AR9485 has worked)
 
 # Credits
 
-kavenliang's clover file on 10.10
+    kavenliang's clover file on 10.10
 
-EMlyDinEsH for ApplePS2SmartTouchPad kext
+    EMlyDinEsH for ApplePS2SmartTouchPad kext
 
-Pike R. Alpha for SSDTPRGen.sh
+    Pike R. Alpha for SSDTPRGen.sh
 
-Rehabman's laptop DSDT patches and some kexts
+    Rehabman's laptop DSDT patches and some kexts
 
-PMheart for get XCPM and Fake Haswell Cpu idea
+    PMheart for get XCPM and Fake Haswell Cpu idea
 
-syscl for enable-HiDPI.sh
+    syscl for enable-HiDPI.sh
 
-Mieze's Atheros Killer E2200 driver
+    Mieze's Atheros Killer E2200 driver
 
-vit9696's AppleALC project
+    vit9696's AppleALC project
 
-etc.
+    etc.
 
 # change log
 
