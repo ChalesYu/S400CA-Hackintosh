@@ -1,6 +1,7 @@
 # S400CA-Hackintosh
 EDIT...
 I have installed MacOS 10.12 at S400CA with some bugs
+
 Please add FakeSMC.kext by yourself
 
 ### Specifications:
