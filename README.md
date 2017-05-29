@@ -1,6 +1,7 @@
 # S400CA-Hackintosh
 EDIT...
 I have installed MacOS 10.12 at S400CA with some bugs
+Please add FakeSMC.kext by yourself
 
 ### Specifications:
 
@@ -38,5 +39,6 @@ I have installed MacOS 10.12 at S400CA with some bugs
 
 # Change log
 
+    2017.5.29  simply update clover version to 4077
     2017.3.24  update VT1802 source file to fake AppleHDA
     2017.2.23  create it
