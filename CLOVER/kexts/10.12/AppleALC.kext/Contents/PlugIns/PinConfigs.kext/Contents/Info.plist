@@ -5,7 +5,7 @@
 	<key>CFBundleDevelopmentRegion</key>
 	<string>en</string>
 	<key>CFBundleGetInfoString</key>
-	<string>Copyright © 2016 vit9696. All rights reserved.</string>
+	<string>Copyright © 2017 vit9696. All rights reserved.</string>
 	<key>CFBundleIdentifier</key>
 	<string>as.vit9696.PinConfigs</string>
 	<key>CFBundleInfoDictionaryVersion</key>
@@ -34,14 +34,15 @@
 					AwAAAA==
 					</data>
 					<key>Codec</key>
-					<string>VT1802 ChalesYu based on Mirone</string>
+					<string>Mirone - VIA VT1802</string>
 					<key>CodecID</key>
 					<integer>285639750</integer>
 					<key>ConfigData</key>
 					<data>
-					ArccIAK3HRACtx6BArcfAgJHHEACRx0AAkce
-					FwJHH5ACRwwCAlccUAJXHRACVx4hAlcfAgJX
-					DAIDBxwQAwcdAAMHHqADBx+Q
+					AkccEAJHHQACRx4TAkcfkAJXHCACVx1AAlce
+					IQJXHwEClxxAApcdAAKXHqAClx+QArccYAK3
+					HZACtx6BArcfAgLXHHAC1x0QAtceRALXHwAC
+					RwwCAlcMAw==
 					</data>
 					<key>FuncGroup</key>
 					<integer>1</integer>
@@ -54,59 +55,19 @@
 					AwAAAA==
 					</data>
 					<key>Codec</key>
-					<string>VT1802 ChalesYu based on Mirone</string>
+					<string>ChalesYu - VIA VT1802</string>
 					<key>CodecID</key>
 					<integer>285639750</integer>
 					<key>ConfigData</key>
 					<data>
-					AkccQAJHHQACRx4XAkcfkAJHDAICVxwQAlcd
-					QAJXHiACVx8BAlcMAgMHHBADBx0AAwceoAMH
+					AkccQAJHHQACRx4XAkcfkAJHDAICVxxQAlcd
+					EAJXHiECVx8CAlcMAgMHHBADBx0AAwceoAMH
 					H5A=
 					</data>
 					<key>FuncGroup</key>
 					<integer>1</integer>
 					<key>LayoutID</key>
-					<integer>4</integer>
-				</dict>
-				<dict>
-					<key>AFGLowPowerState</key>
-					<data>
-					AwAAAA==
-					</data>
-					<key>Codec</key>
-					<string>VT1802 ChalesYu based on Mirone</string>
-					<key>CodecID</key>
-					<integer>285639750</integer>
-					<key>ConfigData</key>
-					<data>
-					AzccIAM3HRADNx6LAzcfAgJHHEACRx0AAkce
-					FwJHH5ACRwwCAlccUAJXHRACVx4rAlcfAgJX
-					DAIDBxwQAwcdAAMHHqADBx+Q
-					</data>
-					<key>FuncGroup</key>
-					<integer>1</integer>
-					<key>LayoutID</key>
-					<integer>5</integer>
-				</dict>
-				<dict>
-					<key>AFGLowPowerState</key>
-					<data>
-					AwAAAA==
-					</data>
-					<key>Codec</key>
-					<string>VT1802 ChalesYu based on Mirone</string>
-					<key>CodecID</key>
-					<integer>285639750</integer>
-					<key>ConfigData</key>
-					<data>
-					AoccIAKHHRAChx6LAocfAgJHHEACRx0AAkce
-					FwJHH5ACRwwCAlccUAJXHRACVx4rAlcfAgJX
-					DAIDBxwQAwcdAAMHHqADBx+Q
-					</data>
-					<key>FuncGroup</key>
-					<integer>1</integer>
-					<key>LayoutID</key>
-					<integer>6</integer>
+					<integer>33</integer>
 				</dict>
 			</array>
 			<key>IOClass</key>
