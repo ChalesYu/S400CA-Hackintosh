@@ -1,8 +1,13 @@
 # S400CA-Hackintosh
+
 EDIT...
+
 I have installed MacOS 10.12 at S400CA with some bugs
 
 Please add FakeSMC.kext by yourself
+
+### Note: 
+    Will try 10.13 at the end of july
 
 ### Specifications:
 
@@ -40,7 +45,7 @@ Please add FakeSMC.kext by yourself
 
 # Change log
 
-    2017.6.24  sync Lilu&ALCbeta with official
+    2017.6.24  sync Lilu&AppleALC with official
     2017.6.23  simply update clover version to 4097
     2017.5.29  simply update clover version to 4077
     2017.3.24  update VT1802 source file to fake AppleHDA
