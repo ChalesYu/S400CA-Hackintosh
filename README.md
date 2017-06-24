@@ -40,7 +40,7 @@ Please add FakeSMC.kext by yourself
 
 # Change log
 
-    2017.6.24  sync Lilu&ALCbeta with offical
+    2017.6.24  sync Lilu&ALCbeta with official
     2017.6.23  simply update clover version to 4097
     2017.5.29  simply update clover version to 4077
     2017.3.24  update VT1802 source file to fake AppleHDA
