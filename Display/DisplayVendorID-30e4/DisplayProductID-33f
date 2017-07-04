@@ -10,10 +10,20 @@
 	<integer>12516</integer>
 	<key>IOGFlags</key>
 	<integer>4</integer>
+	<key>display-resolution-preview-icon</key>
+	<string>/System/Library/Displays/Contents/Resources/Overrides/DisplayVendorID-610/DisplayProductID-a02a.tiff</string>
 	<key>dmdg</key>
 	<data>
 	AAAAAg==
 	</data>
+	<key>resolution-preview-height</key>
+	<integer>83</integer>
+	<key>resolution-preview-width</key>
+	<integer>131</integer>
+	<key>resolution-preview-x</key>
+	<integer>47</integer>
+	<key>resolution-preview-y</key>
+	<integer>64</integer>
 	<key>scale-resolutions</key>
 	<array>
 		<data>
