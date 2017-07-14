@@ -253,6 +253,48 @@
 				vgcAAAAx0pCQkJCQ
 				</data>
 			</dict>
+			<dict>
+				<key>Comment</key>
+				<string>Fake Haswell-10.12.6_16G24b_dp5</string>
+				<key>Disabled</key>
+				<false/>
+				<key>Find</key>
+				<data>
+				jUPEg/gi
+				</data>
+				<key>Replace</key>
+				<data>
+				jUPGg/gi
+				</data>
+			</dict>
+			<dict>
+				<key>Comment</key>
+				<string>IVY_Fake Haswell_10.13-pre</string>
+				<key>Disabled</key>
+				<true/>
+				<key>Find</key>
+				<data>
+				idgExDwidyI=
+				</data>
+				<key>Replace</key>
+				<data>
+				idgExjwidyI=
+				</data>
+			</dict>
+			<dict>
+				<key>Comment</key>
+				<string>_xcpm_pkg_scope_msr_10.13-pre</string>
+				<key>Disabled</key>
+				<true/>
+				<key>Find</key>
+				<data>
+				vgcAAAAx0uiP/P//
+				</data>
+				<key>Replace</key>
+				<data>
+				vgcAAAAx0pCQkJCQ
+				</data>
+			</dict>
 		</array>
 		<key>KextsToPatch</key>
 		<array>

@@ -45,6 +45,7 @@ Please add FakeSMC.kext by yourself
 
 # Change log
 
+    2017.7.14  update patches for Fake Haswell
     2017.6.24  sync Lilu&AppleALC with official
     2017.6.23  simply update clover version to 4097
     2017.5.29  simply update clover version to 4077
