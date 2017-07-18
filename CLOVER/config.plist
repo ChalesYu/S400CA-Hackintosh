@@ -332,18 +332,18 @@
 			</dict>
 			<dict>
 				<key>Comment</key>
-				<string>Disable Intel MEI check _10.12_Credit ChalesYu based on gynekolog</string>
+				<string>Disable Intel MEI check Credit ChalesYu based on gynekolog</string>
 				<key>Disabled</key>
 				<false/>
 				<key>Find</key>
 				<data>
-				SYmEJJgAAABIhcAPhFkDAABI
+				SYmEJJgAAABIhcAPhA==
 				</data>
 				<key>Name</key>
 				<string>AppleIntelFramebufferCapri</string>
 				<key>Replace</key>
 				<data>
-				SYmEJJgAAABIMcAPhFkDAABI
+				SYmEJJgAAABIMcAPhA==
 				</data>
 			</dict>
 			<dict>
