@@ -1,0 +1,3 @@
+on run {input, parameters}		do shell script "sudo kextunload -b com.insanelymac.AtherosE2200Ethernet;sleep 4;sudo kextload  /AtherosE2200Ethernet.kext" user name “XXXXXX” password “XXXXXX” with administrator privileges	(* For some reasons) (e.g Wake from sleep)  It can’t get IP Adress although in DHCP ,so i decide to reload this kext manually *)
+	
+(* Chang XXXXXX to Username&Passwd *)		return inputend run

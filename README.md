@@ -45,6 +45,7 @@ Please add FakeSMC.kext by yourself
 
 # Change log
 
+    2017.7.15  Add Ethernet solution script
     2017.7.15  Fix USB caused Sleep issue(instant wake)
     2017.7.14  update patches for Fake Haswell
     2017.6.24  sync Lilu&AppleALC with official
