@@ -1,13 +1,13 @@
 # S400CA-Hackintosh
 
-EDIT...
-
 I have installed MacOS 10.12 at S400CA with some bugs
 
 Please add FakeSMC.kext by yourself
 
 ### Note: 
-    Will try 10.13 at the end of july
+    <del>Will try 10.13 at the end of july</del>
+    </br>Bad things to tell ...   I have Fail the exam DSP，And i have other things to do at the early of August. So, this project will be put off and even abandoned
+    </br>sorry for my bad english
 
 ### Specifications:
 
@@ -20,14 +20,14 @@ Please add FakeSMC.kext by yourself
 ### Working :
 
      Display Brightness
-     Sound (extMic not working)
+     Sound (extMic not work)
      Battery
-     camera
+     Camera
      Power Management
      Touch Screen (One finger)
      Trackpad gestures
      SD Card Reader(USB)
-     Sleep(sometimes not work when AC adapter plugin)
+     Sleep
 ### NOT Working :
      VGA port
      boot slow (up to 1 minutes)
@@ -45,7 +45,7 @@ Please add FakeSMC.kext by yourself
 
 # Change log
 
-    2017.7.15  Add Ethernet solution script
+    2017.7.18  Add Ethernet solution script
     2017.7.15  Fix USB caused Sleep issue(instant wake)
     2017.7.14  update patches for Fake Haswell
     2017.6.24  sync Lilu&AppleALC with official
