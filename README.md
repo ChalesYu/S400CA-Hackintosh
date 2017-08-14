@@ -5,9 +5,7 @@ I have installed MacOS 10.12 at S400CA with some bugs
 Please add FakeSMC.kext by yourself
 
 ### Note: 
-    <del>Will try 10.13 at the end of july</del>
-    </br>Bad things to tell ...   I have Fail the exam DSP，And i have other things to do at the early of August. So, this project will be put off and even abandoned
-    </br>sorry for my bad english
+   Will try 10.13 at the end of <del> july </del> Year
 
 ### Specifications:
 
