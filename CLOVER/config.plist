@@ -83,7 +83,7 @@
 	<key>Boot</key>
 	<dict>
 		<key>Arguments</key>
-		<string>kext-dev-mode=1 rootless=0 slide=50 -alcbeta -lilubeta</string>
+		<string>kext-dev-mode=1 rootless=0 slide=50</string>
 		<key>Debug</key>
 		<false/>
 		<key>DefaultVolume</key>
@@ -332,9 +332,9 @@
 			</dict>
 			<dict>
 				<key>Comment</key>
-				<string>Disable Intel MEI check Credit ChalesYu based on gynekolog</string>
+				<string>Disable Intel MEI check Credit _10.12_ChalesYu based on gynekolog</string>
 				<key>Disabled</key>
-				<false/>
+				<true/>
 				<key>Find</key>
 				<data>
 				SYmEJJgAAABIhcAPhA==

@@ -38,12 +38,13 @@ Please add FakeSMC.kext by yourself
     PMheart for get XCPM and Fake Haswell Cpu work
     syscl for enable-HiDPI.sh
     Mieze's Atheros Killer E2200 driver
-    vit9696's AppleALC project
+    vit9696's Lilu&AppleALC project
 
     etc.
 
 # Change log
 
+    2017.8.18  Little update and use new way patch kext
     2017.7.18  Add Ethernet solution script
     2017.7.15  Fix USB caused Sleep issue(instant wake)
     2017.7.14  update patches for Fake Haswell
