@@ -1,5 +1,7 @@
 # S400CA-Hackintosh
 
+如果你是中文用户，请看上面的README_zh-cn.md
+
 I have installed MacOS 10.12 at S400CA with some bugs
 
 Please add FakeSMC.kext by yourself
@@ -28,7 +30,7 @@ Please add FakeSMC.kext by yourself
      Sleep
 ### NOT Working :
      VGA port
-     boot slow (up to 1 minutes)
+     boot slow — SLOVED via Flash BIOS,Boot into desktop won’t need more than 40 seconds
      wifi&BT(Has changed to QCA9565 , Although AR9485 has worked)
 # Credits
     kavenliang's clover file on 10.10
@@ -39,11 +41,13 @@ Please add FakeSMC.kext by yourself
     syscl for enable-HiDPI.sh
     Mieze's Atheros Killer E2200 driver
     vit9696's Lilu&AppleALC project
+    Mirone’s VT1802 audio data base
 
     etc.
 
 # Change log
 
+    2017.9.8   Add Chinese Translation and BIOS File
     2017.8.18  Little update and use new way patch kext
     2017.7.18  Add Ethernet solution script
     2017.7.15  Fix USB caused Sleep issue(instant wake)
