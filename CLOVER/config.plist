@@ -83,7 +83,7 @@
 	<key>Boot</key>
 	<dict>
 		<key>Arguments</key>
-		<string>kext-dev-mode=1 rootless=0 slide=50</string>
+		<string>kext-dev-mode=1 rootless=0 slide=50 -igmeioff</string>
 		<key>Debug</key>
 		<false/>
 		<key>DefaultVolume</key>
@@ -227,7 +227,7 @@
 		<array>
 			<dict>
 				<key>Comment</key>
-				<string>Fake Haswell</string>
+				<string>Fake Haswell-10.12</string>
 				<key>Disabled</key>
 				<false/>
 				<key>Find</key>
@@ -241,16 +241,16 @@
 			</dict>
 			<dict>
 				<key>Comment</key>
-				<string>_xcpm_pkg_scope_msr</string>
+				<string>IVY_Fake Haswell_10.13</string>
 				<key>Disabled</key>
 				<false/>
 				<key>Find</key>
 				<data>
-				vgcAAAAx0uiU/P//
+				idgExDwidyI=
 				</data>
 				<key>Replace</key>
 				<data>
-				vgcAAAAx0pCQkJCQ
+				idgExjwidyI=
 				</data>
 			</dict>
 			<dict>
@@ -269,23 +269,23 @@
 			</dict>
 			<dict>
 				<key>Comment</key>
-				<string>IVY_Fake Haswell_10.13-pre</string>
+				<string>_xcpm_pkg_scope_msr_10.12</string>
 				<key>Disabled</key>
-				<true/>
+				<false/>
 				<key>Find</key>
 				<data>
-				idgExDwidyI=
+				vgcAAAAx0uiU/P//
 				</data>
 				<key>Replace</key>
 				<data>
-				idgExjwidyI=
+				vgcAAAAx0pCQkJCQ
 				</data>
 			</dict>
 			<dict>
 				<key>Comment</key>
-				<string>_xcpm_pkg_scope_msr_10.13-pre</string>
+				<string>_xcpm_pkg_scope_msr_10.13</string>
 				<key>Disabled</key>
-				<true/>
+				<false/>
 				<key>Find</key>
 				<data>
 				vgcAAAAx0uiP/P//
@@ -302,7 +302,7 @@
 				<key>Comment</key>
 				<string>remove port limit-10.11</string>
 				<key>Disabled</key>
-				<false/>
+				<true/>
 				<key>Find</key>
 				<data>
 				g72M/v//EA==
@@ -316,18 +316,18 @@
 			</dict>
 			<dict>
 				<key>Comment</key>
-				<string>Disable Intel MEI check--10.11</string>
+				<string>change 15 port limit to 26 in XHCI kext 10.13 PB1</string>
 				<key>Disabled</key>
-				<true/>
+				<false/>
 				<key>Find</key>
 				<data>
-				SImDmAAAAEiFwA+EAgMAAEg=
+				g32MEA==
 				</data>
 				<key>Name</key>
-				<string>AppleIntelFramebufferCapri</string>
+				<string>AppleUSBXHCIPCI</string>
 				<key>Replace</key>
 				<data>
-				SImDmAAAAEgxwA+EAgMAAEg=
+				g32MGw==
 				</data>
 			</dict>
 			<dict>
@@ -364,7 +364,7 @@
 			</dict>
 			<dict>
 				<key>Comment</key>
-				<string>Fix Ports 4 to 2 at HD4000 0x01660003-10.11</string>
+				<string>Fix Ports 4 to 2 at HD4000 0x01660003</string>
 				<key>Disabled</key>
 				<false/>
 				<key>Find</key>
@@ -380,7 +380,7 @@
 			</dict>
 			<dict>
 				<key>Comment</key>
-				<string>HD4000 0x01660003 Ports detail Fix-10.11</string>
+				<string>HD4000 0x01660003 Ports detail Fix</string>
 				<key>Disabled</key>
 				<false/>
 				<key>Find</key>
@@ -410,22 +410,6 @@
 				<key>Replace</key>
 				<data>
 				AAAAAAAAAAAAAAA=
-				</data>
-			</dict>
-			<dict>
-				<key>Comment</key>
-				<string>Boot graphics glitch, 10.10.x/10.11.x (credit lisai9093, cecekpawon)</string>
-				<key>Disabled</key>
-				<false/>
-				<key>Find</key>
-				<data>
-				AQAAdRc=
-				</data>
-				<key>Name</key>
-				<string>IOGraphicsFamily</string>
-				<key>Replace</key>
-				<data>
-				AQAA6xc=
 				</data>
 			</dict>
 			<dict>
@@ -471,103 +455,62 @@
 	</dict>
 	<key>SMBIOS</key>
 	<dict>
-		<key>#BoardSerialNumber</key>
-		<string>C02032101R5DC771H</string>
-		<key>#BoardVersion</key>
-		<string>Proto1</string>
-		<key>#FirmwareFeatures</key>
-		<string>0xC0001403</string>
-		<key>#PlatformFeature</key>
-		<integer>3</integer>
-		<key>#Slots</key>
-		<array>
-			<dict>
-				<key>Device</key>
-				<string>ATI</string>
-				<key>ID</key>
-				<integer>1</integer>
-				<key>Name</key>
-				<string>PCIe Slot 0</string>
-				<key>Type</key>
-				<integer>16</integer>
-			</dict>
-			<dict>
-				<key>Device</key>
-				<string>WIFI</string>
-				<key>ID</key>
-				<integer>0</integer>
-				<key>Name</key>
-				<string>Airport</string>
-				<key>Type</key>
-				<integer>1</integer>
-			</dict>
-		</array>
 		<key>BiosReleaseDate</key>
-		<string>05/24/13</string>
+		<string>08/08/2017</string>
 		<key>BiosVendor</key>
 		<string>Apple Inc.</string>
 		<key>BiosVersion</key>
-		<string>MBA61.88Z.0099.B04.1305241529</string>
+		<string>MBA61.88Z.0103.B00.1708080653</string>
 		<key>Board-ID</key>
 		<string>Mac-7DF21CB3ED6977E5</string>
 		<key>BoardManufacturer</key>
 		<string>Apple Inc.</string>
 		<key>BoardType</key>
 		<integer>10</integer>
+		<key>BoardVersion</key>
+		<string>MacBookAir6,2</string>
 		<key>ChassisAssetTag</key>
 		<string>Air-Enclosure</string>
 		<key>ChassisManufacturer</key>
 		<string>Apple Inc.</string>
 		<key>ChassisType</key>
-		<string>10</string>
+		<string>0x0A</string>
 		<key>Family</key>
 		<string>MacBook Air</string>
+		<key>LocationInChassis</key>
+		<string>Part Component</string>
 		<key>Manufacturer</key>
 		<string>Apple Inc.</string>
 		<key>Memory</key>
 		<dict>
+			<key>Channels</key>
+			<integer>1</integer>
 			<key>Modules</key>
 			<array>
 				<dict>
 					<key>Frequency</key>
-					<string>1600</string>
+					<integer>1600</integer>
 					<key>Part</key>
 					<string>8JTF5126-4HZ1G6D</string>
 					<key>Serial</key>
 					<string>462943423042337</string>
 					<key>Size</key>
-					<string>4096</string>
+					<integer>4096</integer>
 					<key>Slot</key>
-					<string>0</string>
+					<integer>0</integer>
 					<key>Type</key>
 					<string>DDR3</string>
 					<key>Vendor</key>
 					<string>Embedded</string>
 				</dict>
-				<dict>
-					<key>Frequency</key>
-					<string>1600</string>
-					<key>Part</key>
-					<string>M471B5673FH0-CH9</string>
-					<key>Serial</key>
-					<string>705030502080204</string>
-					<key>Size</key>
-					<string>2048</string>
-					<key>Slot</key>
-					<string>2</string>
-					<key>Type</key>
-					<string>DDR3</string>
-					<key>Vendor</key>
-					<string>Samsung</string>
-				</dict>
 			</array>
+			<key>SlotCount</key>
+			<integer>2</integer>
 		</dict>
 		<key>Mobile</key>
 		<true/>
 		<key>ProductName</key>
 		<string>MacBookAir6,2</string>
-		<key>Trust</key>
-		<false/>
 		<key>Version</key>
 		<string>1.0</string>
 	</dict>

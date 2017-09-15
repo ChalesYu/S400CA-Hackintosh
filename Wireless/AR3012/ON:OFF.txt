@@ -1,0 +1,22 @@
+———————————————————
+ON
+
+sudo defaults write /Library/Preferences/com.apple.Bluetooth.plist ControllerPowerState 1
+sudo launchctl unload /System/Library/LaunchDaemons/com.apple.blued.plist
+sudo killall blued
+sudo launchctl load /System/Library/LaunchDaemons/com.apple.blued.plist
+sudo launchctl start com.apple.blued
+sleep 5
+
+
+——————————————————-
+OFF
+
+sudo defaults write /Library/Preferences/com.apple.Bluetooth.plist ControllerPowerState 0
+sudo launchctl unload /System/Library/LaunchDaemons/com.apple.blued.plist
+sudo killall blued
+sudo launchctl load /System/Library/LaunchDaemons/com.apple.blued.plist
+sudo launchctl start com.apple.blued
+sleep 5
+
+———————————————————

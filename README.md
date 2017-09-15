@@ -2,7 +2,7 @@
 
 如果你是中文用户，请看上面的README_zh-cn.md
 
-I have installed MacOS 10.12 at S400CA with some bugs
+I have installed MacOS sierra 10.12 at S400CA with some bugs
 
 Please add FakeSMC.kext by yourself
 
@@ -47,6 +47,7 @@ Please add FakeSMC.kext by yourself
 
 # Change log
 
+    2017.9.15  Combo update to prepare 10.13
     2017.9.8   Add Chinese Translation and BIOS File
     2017.8.18  Little update and use new way patch kext
     2017.7.18  Add Ethernet solution script
