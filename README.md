@@ -2,12 +2,14 @@
 
 如果你是中文用户，请看上面的README_zh-cn.md
 
-I have installed MacOS sierra 10.12 at S400CA with some bugs
+Has upgrade to High Sierra DB9 (17A360a)
+
+<del> I have installed MacOS sierra 10.12 at S400CA with some bugs</del>
 
 Please add FakeSMC.kext by yourself
 
 ### Note: 
-   Will try 10.13 at the end of <del> july </del> Year
+  <del> Will try 10.13 at the end of Year</del>
 
 ### Specifications:
 
