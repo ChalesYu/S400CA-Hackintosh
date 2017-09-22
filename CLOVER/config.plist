@@ -40,35 +40,6 @@
 		<string>0x06</string>
 		<key>SSDT</key>
 		<dict>
-			<key>#C3Latency</key>
-			<string>0x03E7</string>
-			<key>#DoubleFirstState</key>
-			<true/>
-			<key>#EnableC2</key>
-			<false/>
-			<key>#EnableC4</key>
-			<false/>
-			<key>#EnableC7</key>
-			<false/>
-			<key>#Generate</key>
-			<dict>
-				<key>CStates</key>
-				<true/>
-				<key>PStates</key>
-				<true/>
-			</dict>
-			<key>#MaxMultiplier</key>
-			<integer>12</integer>
-			<key>#MinMultiplier</key>
-			<integer>8</integer>
-			<key>#PLimitDict</key>
-			<integer>1</integer>
-			<key>#PluginType</key>
-			<integer>0</integer>
-			<key>#UnderVoltStep</key>
-			<integer>1</integer>
-			<key>#UseSystemIO</key>
-			<false/>
 			<key>DropOem</key>
 			<false/>
 			<key>EnableC6</key>
@@ -99,8 +70,6 @@
 	</dict>
 	<key>BootGraphics</key>
 	<dict>
-		<key>#DefaultBackgroundColor</key>
-		<string>0xF0F0F0</string>
 		<key>EFILoginHiDPI</key>
 		<integer>1</integer>
 		<key>UIScale</key>
@@ -108,18 +77,6 @@
 	</dict>
 	<key>CPU</key>
 	<dict>
-		<key>#BusSpeedkHz</key>
-		<integer>133330</integer>
-		<key>#HWPEnable</key>
-		<true/>
-		<key>#QPI</key>
-		<integer>4800</integer>
-		<key>#SavingMode</key>
-		<integer>7</integer>
-		<key>#TDP</key>
-		<integer>7</integer>
-		<key>#TurboDisable</key>
-		<true/>
 		<key>FrequencyMHz</key>
 		<integer>1400</integer>
 		<key>UseARTFrequency</key>
@@ -129,8 +86,6 @@
 	<dict>
 		<key>Audio</key>
 		<dict>
-			<key>AFGLowPowerState</key>
-			<false/>
 			<key>Inject</key>
 			<integer>33</integer>
 			<key>ResetHDA</key>
@@ -148,28 +103,15 @@
 	</dict>
 	<key>GUI</key>
 	<dict>
-		<key>Hide</key>
-		<array>
-			<string>windows</string>
-		</array>
 		<key>Language</key>
 		<string>en:0</string>
-		<key>Mouse</key>
-		<dict>
-			<key>DoubleClick</key>
-			<integer>500</integer>
-			<key>Enabled</key>
-			<false/>
-			<key>Mirror</key>
-			<false/>
-			<key>Speed</key>
-			<integer>8</integer>
-		</dict>
 		<key>Scan</key>
 		<dict>
 			<key>Entries</key>
 			<true/>
 			<key>Legacy</key>
+			<false/>
+			<key>Linux</key>
 			<false/>
 			<key>Tool</key>
 			<true/>
@@ -183,22 +125,6 @@
 	<dict>
 		<key>DualLink</key>
 		<integer>0</integer>
-		<key>EDID</key>
-		<dict>
-			<key>Custom</key>
-			<data>
-			AP///////wAGEPKcAAAAABoVAQSVGg54Au8Fl1dUkiciUFQAAAAB
-			AQEBAQEBAQEBAQEBAQEBEhtWaFAAEjAgIDUANq4QAAAZAAAA/ABD
-			b2xvciBMQ0QKICAgAAAA/QA4TB5TEQAKICAgICAgAAAA/gBMUDE0
-			MFdIMi1UTEUyAMo=
-			</data>
-			<key>Inject</key>
-			<false/>
-			<key>ProductID</key>
-			<integer>40178</integer>
-			<key>VendorID</key>
-			<integer>1552</integer>
-		</dict>
 		<key>Inject</key>
 		<dict>
 			<key>ATI</key>
@@ -208,8 +134,6 @@
 			<key>NVidia</key>
 			<false/>
 		</dict>
-		<key>LoadVBios</key>
-		<false/>
 		<key>ig-platform-id</key>
 		<string>0x01660003</string>
 	</dict>
