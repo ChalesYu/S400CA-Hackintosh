@@ -2,12 +2,14 @@
 
 If you are Englsh User , Please See README.md
 
-I have installed MacOS 10.12 at S400CA with some bugs
+I have installed MacOS 10.13 at S400CA with some bugs
 
 请自行手动添加 FakeSMC.kext
 
-### 注: 
-   Will try 10.13 at the end of <del> july </del> Year
+### 注:
+
+ 对于后续版本的MacOS，只更新 clover,kext 的版本 应该就可以
+ <del> 将在今年年底尝试10.13 </del> 
 
 ### 电脑配置:
 
@@ -48,6 +50,8 @@ I have installed MacOS 10.12 at S400CA with some bugs
 
 # 更改日志
 
+    2017.9.30  已更新10.13 , 更新kext驱动版本
+    2017.9.15  为10.13准备更新
     2017.9.8   添加中文翻译和BIOS文件
     2017.8.18  小更新 和 用新方式给kext打补丁
     2017.7.18  添加网线接口不可用的解决脚本

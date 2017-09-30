@@ -1,3 +1,7 @@
+Name : outimage.bin
+MD5 : abba1307b8b3312f3df43d9406f71189
+SHA1 : 8fa3d2c4c23ab5119679d1d892db8454fc8bb364
+
 Here is BIOS File which i use (8M)
 这是我现在用的BIOS (8M)
 

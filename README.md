@@ -2,13 +2,15 @@
 
 如果你是中文用户，请看上面的README_zh-cn.md
 
-Has upgrade to High Sierra DB9 (17A360a)
+Has upgrade to High Sierra (17A365)
 
 <del> I have installed MacOS sierra 10.12 at S400CA with some bugs</del>
 
 Please add FakeSMC.kext by yourself
 
 ### Note: 
+
+  For the latest version of Macos .Only update clover and kext files should be OK
   <del> Will try 10.13 at the end of Year</del>
 
 ### Specifications:
@@ -49,6 +51,7 @@ Please add FakeSMC.kext by yourself
 
 # Change log
 
+    2017.9.30  update to 10.13 , update kext version
     2017.9.15  Combo update to prepare 10.13
     2017.9.8   Add Chinese Translation and BIOS File
     2017.8.18  Little update and use new way patch kext
