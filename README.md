@@ -11,6 +11,9 @@ Please add FakeSMC.kext by yourself
 ### Note: 
 
   For the latest version of Macos .Only update clover and kext files should be OK
+
+  If your notebook don't have '8086:1E3A' in the PCI tree, you can try to remove '-igmeioff' from 'Boot-Arguments'.
+
   <del> Will try 10.13 at the end of Year</del>
 
 ### Specifications:

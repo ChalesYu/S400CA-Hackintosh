@@ -8,7 +8,12 @@ I have installed MacOS 10.13 at S400CA with some bugs
 
 ### 注:
 
+ 弃坑
+
  对于后续版本的MacOS，只更新 clover,kext 的版本 应该就可以
+
+ 如果你的笔记本的 PCI设备树 下有没有显示 8086:1E3A 这个设备，你可以尝试从 'Boot-Arguments' 中移除 '-igmeioff'，来解决核显加速失效的问题.
+
  <del> 将在今年年底尝试10.13 </del> 
 
 ### 电脑配置:

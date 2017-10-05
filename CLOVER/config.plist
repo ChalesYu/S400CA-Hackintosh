@@ -198,26 +198,12 @@
 			</dict>
 			<dict>
 				<key>Comment</key>
-				<string>_xcpm_pkg_scope_msr_10.12</string>
+				<string>_xcpm_pkg_scope_msr_10.12_10.13</string>
 				<key>Disabled</key>
 				<false/>
 				<key>Find</key>
 				<data>
 				vgcAAAAx0uiU/P//
-				</data>
-				<key>Replace</key>
-				<data>
-				vgcAAAAx0pCQkJCQ
-				</data>
-			</dict>
-			<dict>
-				<key>Comment</key>
-				<string>_xcpm_pkg_scope_msr_10.13</string>
-				<key>Disabled</key>
-				<false/>
-				<key>Find</key>
-				<data>
-				vgcAAAAx0uiP/P//
 				</data>
 				<key>Replace</key>
 				<data>
@@ -261,7 +247,7 @@
 			</dict>
 			<dict>
 				<key>Comment</key>
-				<string>Disable Intel MEI check Credit _10.12_ChalesYu based on gynekolog</string>
+				<string>Disable Intel MEI check _10.12_Credit ChalesYu based on gynekolog</string>
 				<key>Disabled</key>
 				<true/>
 				<key>Find</key>
@@ -277,23 +263,7 @@
 			</dict>
 			<dict>
 				<key>Comment</key>
-				<string>fix bluetooth at wake</string>
-				<key>Disabled</key>
-				<false/>
-				<key>Find</key>
-				<data>
-				AAABD4XeAAAA
-				</data>
-				<key>Name</key>
-				<string>IOBluetoothHostControllerUSBTransport</string>
-				<key>Replace</key>
-				<data>
-				AAABD4TeAAAA
-				</data>
-			</dict>
-			<dict>
-				<key>Comment</key>
-				<string>Fix Ports 4 to 2 at HD4000 0x01660003</string>
+				<string>Change Ports 4 to 2 at HD4000 0x01660003</string>
 				<key>Disabled</key>
 				<false/>
 				<key>Find</key>
