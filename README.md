@@ -2,11 +2,11 @@
 
 如果你是中文用户，请看上面的README_zh-cn.md
 
-Has upgrade to High Sierra (17A365)
+Has upgrade to High Sierra
 
 <del> I have installed MacOS sierra 10.12 at S400CA with some bugs</del>
 
-Please add FakeSMC.kext by yourself
+Please add FakeSMC.kext and apfs.efi by yourself
 
 ### Note: 
 
