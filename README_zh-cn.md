@@ -55,6 +55,7 @@ I have installed MacOS 10.13 at S400CA with some bugs
 
 # 更改日志
 
+    2017.12.31 同步Lilu和它的插件
     2017.9.30  已更新10.13 , 更新kext驱动版本
     2017.9.15  为10.13准备更新
     2017.9.8   添加中文翻译和BIOS文件

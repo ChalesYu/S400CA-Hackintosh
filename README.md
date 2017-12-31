@@ -54,6 +54,7 @@ Please add FakeSMC.kext and apfs.efi by yourself
 
 # Change log
 
+    2017.12.31 sync Lilu and it's PlugIns
     2017.9.30  update to 10.13 , update kext version
     2017.9.15  Combo update to prepare 10.13
     2017.9.8   Add Chinese Translation and BIOS File
