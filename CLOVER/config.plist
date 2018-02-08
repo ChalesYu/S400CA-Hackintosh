@@ -215,6 +215,22 @@
 		<array>
 			<dict>
 				<key>Comment</key>
+				<string>change F%uT%04x to F17T10ed with AppleBacklightInjector.kext</string>
+				<key>Disabled</key>
+				<false/>
+				<key>Find</key>
+				<data>
+				RiV1VCUwNHgA
+				</data>
+				<key>Name</key>
+				<string>com.apple.driver.AppleBacklight</string>
+				<key>Replace</key>
+				<data>
+				RjE3VDEwZWQA
+				</data>
+			</dict>
+			<dict>
+				<key>Comment</key>
 				<string>remove port limit-10.11</string>
 				<key>Disabled</key>
 				<true/>
@@ -299,7 +315,7 @@
 				<key>Comment</key>
 				<string>Enable TRIM for SSD</string>
 				<key>Disabled</key>
-				<false/>
+				<true/>
 				<key>Find</key>
 				<data>
 				AEFQUExFIFNTRAA=
@@ -341,22 +357,6 @@
 				<key>Replace</key>
 				<data>
 				QcYGAUiLu2g=
-				</data>
-			</dict>
-			<dict>
-				<key>Comment</key>
-				<string>Enable TRIM for SSD</string>
-				<key>Disabled</key>
-				<false/>
-				<key>Find</key>
-				<data>
-				AEFQUExFIFNTRAA=
-				</data>
-				<key>Name</key>
-				<string>IOAHCIBlockStorage</string>
-				<key>Replace</key>
-				<data>
-				AAAAAAAAAAAAAAA=
 				</data>
 			</dict>
 		</array>
