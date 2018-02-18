@@ -6,11 +6,11 @@ Has upgrade to High Sierra
 
 <del> I have installed MacOS sierra 10.12 at S400CA with some bugs</del>
 
-Please add FakeSMC.kext and apfs.efi by yourself
+Please add FakeSMC.kext(with sensor plugins) by yourself
 
 ### Note: 
 
-  For the latest version of Macos .Only update clover and kext files should be OK
+  For the latest version of Macos .Only update clover , apfs.efi and kext files should be OK
 
   If your notebook don't have '8086:1E3A' in the PCI tree, you can try to remove '-igmeioff' from 'Boot-Arguments'.
 
@@ -54,6 +54,7 @@ Please add FakeSMC.kext and apfs.efi by yourself
 
 # Change log
 
+    2018.2.18  sync clover version to 4380
     2018.2.8   Optimize screen brightness adjust
     2017.12.31 sync Lilu and it's PlugIns
     2017.9.30  update to 10.13 , update kext version

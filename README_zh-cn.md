@@ -4,13 +4,13 @@ If you are Englsh User , Please See README.md
 
 I have installed MacOS 10.13 at S400CA with some bugs
 
-请自行手动添加 FakeSMC.kext
+请自行手动添加 FakeSMC.kext(和它的传感器插件)
 
 ### 注:
 
  弃坑
 
- 对于后续版本的MacOS，只更新 clover,kext 的版本 应该就可以
+ 对于后续版本的MacOS，只更新 clover, apfs.efi 和 kext 的版本 应该就可以
 
  如果你的笔记本的 PCI设备树 下有没有显示 8086:1E3A 这个设备，你可以尝试从 'Boot-Arguments' 中移除 '-igmeioff'，来解决核显加速失效的问题.
 
@@ -26,19 +26,19 @@ I have installed MacOS 10.13 at S400CA with some bugs
     6GB DDR3 1600Mhz
 ### 已经工作的 :
 
-     Display Brightness
-     Sound (extMic not work)
-     Battery
-     Camera
-     Power Management
-     Touch Screen (One finger)
-     Trackpad gestures
-     SD Card Reader(USB)
-     Sleep
+     显示器亮度调节
+     声音 (外接耳机麦克风不工作)
+     电量显示
+     摄像头
+     电源管理
+     触摸屏 (单指)
+     触摸板手势
+     SD读卡器(USB)
+     睡眠
 ### 不工作的 :
-     VGA port
-     boot slow ————已由刷BIOS解决，开机进桌面不会超过40秒
-     wifi&BT(Has changed to QCA9565 , Although AR9485 has worked)
+     VGA 接口
+     启动速度慢 ————已由刷BIOS解决，开机进桌面不会超过40秒
+     wifi和蓝牙(已拆机更换 QCA9565 , 尽管 AR9485 可以被驱动)
 # 致谢
     kavenliang's clover file on 10.10
     EMlyDinEsH for ApplePS2SmartTouchPad kext
@@ -55,6 +55,7 @@ I have installed MacOS 10.13 at S400CA with some bugs
 
 # 更改日志
 
+    2018.2.18  同步clover版本到4380
     2018.2.8   优化屏幕亮度调节(可以调更暗)
     2017.12.31 同步Lilu和它的插件
     2017.9.30  已更新10.13 , 更新kext驱动版本
