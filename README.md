@@ -2,15 +2,16 @@
 
 如果你是中文用户，请看上面的README_zh-cn.md
 
+Don't have any plan to update to 10.14. Maybe will try 10.15 on next year(If everything normally). And thanks for your concern on this.
+
 Has upgrade to High Sierra
 
-<del> I have installed MacOS sierra 10.12 at S400CA with some bugs</del>
-
-Please add FakeSMC.kext(with sensor plugins) by yourself
 
 ### Note: 
 
-  For the latest version of Macos .Only update clover , apfs.efi and kext files should be OK
+  Please add FakeSMC.kext(with sensor plugins) by yourself
+  
+  For the latest version of Macos. Only update clover , apfs.efi and kext files should be OK
 
   If your notebook don't have '8086:1E3A' in the PCI tree, you can try to remove '-igmeioff' from 'Boot-Arguments'.
 
